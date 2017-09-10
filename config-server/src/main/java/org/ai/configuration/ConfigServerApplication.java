@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class ConfigServerApplication {
 
-	@Value("${config.name}")
+//	@Value("${config.name}")
 	String name = "World";
 
 	@RequestMapping("/")

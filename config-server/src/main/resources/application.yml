@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: file:///E:/workspace/spring-cloud/
+#          uri: file:///E:/workspace/spring-cloud/
+          uri: https://github.com/AllenAi007/spring-cloud.git
           basedir: config
 
 ---

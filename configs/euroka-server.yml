@@ -1,0 +1,6 @@
+---
+spring:
+  profile: dev
+
+config:
+  name: My Config Server
